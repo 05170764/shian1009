@@ -97,7 +97,7 @@ def sendButton(event):  #按鈕樣版
         message = TemplateSendMessage(
             alt_text='按鈕樣板',
             template=ButtonsTemplate(
-                thumbnail_image_url='https://reurl.cc/lVNQp6',  #顯示的圖片
+                thumbnail_image_url='https://www.google.com/imgres?imgurl=http%3A%2F%2Fpic.90sjimg.com%2Fdesign%2F01%2F29%2F88%2F90%2F59147a1912559.png&imgrefurl=http%3A%2F%2F90sheji.com%2Fsucai%2F13310203.html&tbnid=a5EtCMjv5DZrQM&vet=10CBMQxiAoAmoXChMI8Iu5gt6j6QIVAAAAAB0AAAAAEAU..i&docid=lKwy2kG8cQqXwM&w=500&h=500&itg=1&q=%E8%9B%8B%E7%B3%95&hl=zh-TW&ved=0CBMQxiAoAmoXChMI8Iu5gt6j6QIVAAAAAB0AAAAAEAU',  #顯示的圖片
                 title='蛋糕好好吃',  #主標題
                 text='請選擇：',  #副標題
                 actions=[
